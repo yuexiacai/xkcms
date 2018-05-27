@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="test" type="HTML" />
       <mapping pattern="code_standard" type="PLAIN_TEXT" />
+      <mapping pattern="html_standard" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
