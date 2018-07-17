@@ -1,8 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="c6a65f29-a9d6-4057-bb53-a6706bfa9f55" name="yii_basic3_ftp" url="http://d.tingyuntai.com">
-        <fileTransfer host="211.149.222.22" port="21">
+      <webServer id="c6a65f29-a9d6-4057-bb53-a6706bfa9f55" name="yii_shop1_ftp" url="http://yiishop1.com">
+        <fileTransfer host="192.168.1.98" port="21">
           <advancedOptions>
             <advancedOptions compatibilityMode="true" controlEncoding="UTF-8" dataProtectionLevel="Private" forceListCommand="true" passiveMode="true" accurateTimestamps="ALWAYS" />
           </advancedOptions>
