@@ -1,3 +1,0 @@
-# codeSnippets
-codeSnippets 
-test
