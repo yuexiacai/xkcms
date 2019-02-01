@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="File '[codeSnippets] - ...\backend\web\js\modules\lib\index.js'" />
+    <option name="defaultScopeName" value="File '[codeSnippets] - ...\backend\web\js\modules\lib\index.js'" />
+    <option name="SEARCH_SCOPE" value="File '[codeSnippets] - ...\backend\web\js\modules\lib\index.js'" />
   </component>
 </application>
