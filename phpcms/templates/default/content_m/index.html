@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="0" http-equiv="expires">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+<meta name="keywords" content="{$SEO['keyword']}">
+<meta name="description" content="{$SEO['description']}">
+<link href="{M1_PATH}css/publice.css" rel="stylesheet" type="text/css">
+
+</head>
+<script type="text/javascript" src="{M1_PATH}js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="{M1_PATH}js/rem.js"></script>
+<script type="text/javascript" src="{M1_PATH}js/tabL.js"></script>
+<body>
+{template "content_m","header"}
+
+{template "content_m","banner"}
+
+
+
+
+<div class="count">
+  <div class="sum navfir center">
+    <ul>
+      <li> <a href="{siteurl($siteid)}/list-15-1.html">
+        <div class="navfrra navfrra1"></div>
+        <div class="navfrb">品牌介绍</div>
+        </a> </li>
+      <li> <a href="{siteurl($siteid)}/list-14-1.html">
+        <div class="navfrra navfrra2"></div>
+        <div class="navfrb">新闻中心</div>
+        </a> </li>
+      <li> <a href="{siteurl($siteid)}/list-7-1.html">
+        <div class="navfrra navfrra3"></div>
+        <div class="navfrb">形象展示</div>
+        </a> </li>
+      <li> <a href="{siteurl($siteid)}/list-8-1.html">
+        <div class="navfrra navfrra4"></div>
+        <div class="navfrb">招商加盟</div>
+        </a> </li>
+      <li> <a href="{siteurl($siteid)}/list-11-1.html">
+        <div class="navfrra navfrra5"></div>
+        <div class="navfrb">物流配送</div>
+        </a> </li>
+      <li> <a href="{siteurl($siteid)}/list-16-1.html">
+        <div class="navfrra navfrra6"></div>
+        <div class="navfrb">实时热点</div>
+        </a> </li>
+      <li> <a href="{siteurl($siteid)}/list-17-1.html">
+        <div class="navfrra navfrra7"></div>
+        <div class="navfrb">项目合作</div>
+        </a> </li>
+      <li>
+       <a href="{siteurl($siteid)}/list-2-1.html">
+        <div class="navfrra navfrra8"></div>
+        <div class="navfrb">关于我们</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="count">
+  <div class="sum navsed center"><img src="{M1_PATH}images/b01_02.jpg"></div>
+</div>
+<div class="count">
+  <div class="sum navsed01 center">
+    <div class="sum navsed01t center"> 一站式社区生活解决方案<span style="display:block;">极具投资价值的新零售项目</span> </div>
+    <div class="sum navsed02 center">
+      <ul>
+        <li> <a href="{siteurl($siteid)}">
+          <div class="navsed02a navsnd02a1"></div>
+          <div class="navfrb">线下实体店</div>
+          </a> </li>
+        <li> <a href="{siteurl($siteid)}">
+          <div class="navsed02a navsnd02a2"></div>
+          <div class="navfrb">手机APP</div>
+          </a> </li>
+        <li> <a href="{siteurl($siteid)}">
+          <div class="navsed02a navsnd02a3"></div>
+          <div class="navfrb">微信商城</div>
+          </a> </li>
+        <li> <a href="{siteurl($siteid)}">
+          <div class="navsed02a navsnd02a4"></div>
+          <div class="navfrb">店铺管理</div>
+          </a> </li>
+        <li> <a href="{siteurl($siteid)}">
+          <div class="navsed02a navsnd02a5"></div>
+          <div class="navfrb">源头直供</div>
+          </a> </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="count">
+  <div class="sum navsed center"><img src="{M1_PATH}images/b2_02.jpg"></div>
+</div>
+<div class="count">
+  <div class="sum navthr center">
+    <div class="navthr1 center">站在巨人的肩膀上 梦想才能快速实现<span>立刻复制1000多位成功创业者经验</span> <font>趋势为王 顺势而为</font> <font style="background:#00a1e9;">复制成功 快速赚钱</font> </div>
+  </div>
+  <div class="clear"></div>
+  <div class="sum center">
+    <div class="mxjms">
+      <ul>
+         {pc:content action="lists" catid="7" num="6" order="id DESC"}
+        {loop $data $r}
+        <li>
+          <a href="{$r[url]}"><img src="{$r[thumb]}">
+          <p>{$r[title]}</p>
+          </a>
+        </li>
+          {/loop}
+        {/pc}  
+          
+          
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="count">
+  <div class="sum navthr center">
+    <div class="sum navfour center">
+      <ul>
+        <li><a id="a1" class="hover"  onmouseover="setTab('a',1,3)">开店快讯</a></li>
+        <li><a id="a2" onmouseover="setTab('a',2,3)">企业动态</a></li>
+        <li><a id="a3" onmouseover="setTab('a',3,3)">行业资讯</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="count">
+  <div class="sum  center">
+    <div class="navforuIa center" id="con_a_1" style="display:block;">
+      <ul>
+        {pc:content action="lists" catid="10" num="5" order="id DESC"}
+        {loop $data $r}
+        <li><img src="{M1_PATH}/images/r_03.jpg"><a href="{$r[url]}">{$r[title]}</a></li>
+            {/loop}
+        {/pc}  
+      </ul>
+    </div>
+    
+    
+    <div class="navforuIa center" id="con_a_2" style="display:none;">
+      <ul>
+        {pc:content action="lists" catid="14" num="5" order="id DESC"}
+        {loop $data $r}
+        <li><img src="{M1_PATH}/images/r_03.jpg"><a href="{$r[url]}">{$r[title]}</a></li>
+            {/loop}
+        {/pc}  
+      </ul>
+    </div>
+    
+    
+    <div class="navforuIa center" id="con_a_3" style="display:none;">
+      <ul>
+        {pc:content action="lists" catid="16" num="5" order="id DESC"}
+        {loop $data $r}
+        <li><img src="{M1_PATH}/images/r_03.jpg"><a href="{$r[url]}">{$r[title]}</a></li>
+            {/loop}
+        {/pc} 
+      </ul>
+    </div>
+    
+  </div>
+</div>
+{template "content_m","footer"}
+</body>
+</html>
